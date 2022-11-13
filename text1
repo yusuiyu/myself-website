@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="gb2312">
+			<title>搭建属于自己的网站</title>
+				<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+				<link rel="stylesheet" type="text/css" href="css/reset.css" />
+				<link rel="stylesheet" type="text/css" href="css/index.css" />
+				<link rel="stylesheet" href="css/style1.css" type="text/css" media="all"/>
+				<script lang="javascript" type="text/javascript" src="js/swiper.min.js"></script>
+				<script lang="javascript" type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+				<script lang="javascript" type="text/javascript" src="js/index.js"></script>
+				<script type="text/javascript">
+				<link rel="stylesheet" href="css/index.css" type="text/css" media="all"/>
+				<script src="js/jquery-1.8.3.min.js"></script>
+				<script type="text/javascript">
+					function frlink(selObj){
+					window.open(selObj.options[selObj.selectedIndex].value);}
+				</script>
+	</head>
+	<body>
+		<div id="hearder2" class="clearfix">
+			<div class="logo-name">######</div>
+		</div>
+		<div id="menu-box" class="clearfix">
+			<ul>
+				<li><a href="#">首页</a></li>
+				<li><a href="#">导航1</a></li>
+				<li><a href="#">导航2</a></li>
+				<li><a href="#">导航3</a></li>
+				<li><a href="#">导航4</a></li>
+				<li><a href="#">导航5</a></li>
+			</ul>
+		</div>
+		<div id="slider-box" style="background:url(img/banner01.jpg) center center;"></div>
+		<!-- div1 -->
+		<div id="div1" class="clearfix">
+			<div class="left260">
+				<div class="title-box">登录</div>
+				<form id="form1" name="form1" method="post" action="login.html">
+					<input type="text" name="textfield2" id="textfield2" placeholder="用户名" class="uname">
+					<input type="password" name="password" id="password" placeholder="密码" class="upass">
+					<div class="t-link">
+					<input type="checkbox" name="checkbox" id="checkbox" class="chek">记住密码
+					<a href="#" target="_blank">忘记密码？</a>
+					</div>
+					<input type="submit" name="submit" id="submit" value="登录" class="input-login">
+					<input type="button" name="button" id="button" value="注册" class="input-but" onClick="window.open('#')">
+				</form>
+			</div>
+			<div class="center450">
+				<div class="title-box">中心简介</div>
+				<p><img src="img/logo.png" align="left" width="50" height="50">此处省略一千字##################################################################################################################...<a href="#">查看更多...</a></p>
+			</div>
+			<div class="right260">
+				<div class="title-box">新闻资讯<a href="#" class="title-more">更多...</a></div>
+				<div class="video-box">
+					<embed src='img/news.jpg' allowFullScreen='true' quality='high' width='260' height='150' align='middle' allowScriptAccess='always' ></embed>
+				</div>
+				<ul>
+					<li><a href="#">##########</a></li>
+					<li><a href="#">##########</a></li>
+					<li><a href="#">##########</a></li>
+				</ul>
+			</div>
+		</div>	
+	</body>
+</html>
+
+
